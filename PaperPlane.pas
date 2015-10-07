@@ -317,7 +317,7 @@ procedure Main();
 var
 	game: GameData;
 begin
-	OpenAudio();
+	
 	OpenGraphicsWindow('PaperPlane', 800, 500);
 	LoadDefaultColors();
 	LoadResources();
