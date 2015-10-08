@@ -3,7 +3,7 @@ uses SwinGame, sgTypes, SysUtils;
 
 const
 	MAX_DOWN = 4;
-	ACCELERAION = 1;
+	ACCELERAION = 4;
 
 type
 	PlaneData= record 												//plane has these values 
@@ -318,7 +318,7 @@ var
 	game: GameData;
 begin
 	
-	OpenGraphicsWindow('PaperPlane', 800, 500);
+	OpenGraphicsWindow('PaperPlane', 1000, 600);
 	LoadDefaultColors();
 	LoadResources();
 	PlaySoundEffect('Wind', -1);
